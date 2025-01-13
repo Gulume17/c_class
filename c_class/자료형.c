@@ -15,11 +15,11 @@ int main(void)
 	printf("%u\n" , max_number);
 
 	int num1 = 1;
-	printf("%d\n", sizeof(num1)); 
-	printf("%d\n" , sizeof(100));
-	printf("%d\n", sizeof(3.14)); //double // (3.14f) 상수c 참고
-	printf("%d\n", sizeof(float));
-	printf("%d\n", sizeof(short));
+	printf("%zd\n", sizeof(num1)); // zd 를 써줘야 줄이 안생김 (d만 써도 되긴 함)
+	printf("%zd\n" , sizeof(100));
+	printf("%zd\n", sizeof(3.14)); //double // (3.14f) 상수c 참고
+	printf("%zd\n", sizeof(float));
+	printf("%zd\n", sizeof(short));
 	
 
 	return 0;
