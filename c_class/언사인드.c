@@ -16,5 +16,5 @@ int main(void)
 	num = 255;
 	printf("%d\n", num); 
 
-	return 0;
+	return 0; 
 }
