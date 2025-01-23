@@ -16,7 +16,7 @@ int main(void)
 		}
 		ptr--;
 	}
-			printf("È¦¼öÀÇ ÇÕ : %d \n", sum);
+			printf("È¦¼öÀÇ ÇÕ : %d \n", sum); 
 
 	
 	return 0;
