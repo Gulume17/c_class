@@ -14,18 +14,20 @@ int math(int a, int b)
 int main(void)
 {
 	int i, j;
-	
+
 	printf("숫자를 입력하세요 :  ");
 	scanf_s("%d %d", &i, &j);
 	int result = math(i, j);
-	printf("곱하기 연산 결과  : %d * %d = %d \n", i,j,result);
+	printf("곱하기 연산 결과  : %d * %d = %d \n", i, j, result);
 
 	/*
 	두 가격 중 더 큰 값을 반환하는 함수
-	딸기 가격을 입력하고 귤 가격을 압력받아서
+	딸기 가격을 입력하고 귤 가격을 입력받아서
 	더 비싼 과일의 가격을 출력
 	*/
-	
+
+	// if문 사용 해야함
+
 
 
 	return 0;
